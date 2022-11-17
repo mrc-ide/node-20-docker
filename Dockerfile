@@ -1,4 +1,4 @@
-FROM node:14.1.0
+node:14-stretch
 
 # Install docker
 RUN apt-get update
