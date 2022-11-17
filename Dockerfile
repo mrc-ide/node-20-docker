@@ -1,4 +1,4 @@
-node:14-stretch
+FROM node:14-stretch
 
 # Install docker
 RUN apt-get update
@@ -14,4 +14,4 @@ RUN add-apt-repository \
    $(lsb_release -cs) \
    stable"
 RUN apt-get update
-RUN apt-get install docker-ce -y
+RUN apt-get install -y docker-ce=5:18.09.0~3-0~debian-stretch
