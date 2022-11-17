@@ -13,7 +13,7 @@ else
     GIT_BRANCH=$(git symbolic-ref --short HEAD)
 fi
 
-ORG=vimc
+ORG=mrcide
 NAME=node-docker
 
 APP_DOCKER_COMMIT_TAG=${ORG}/${NAME}:${GIT_ID}
