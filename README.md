@@ -1,8 +1,8 @@
 # node-docker
-Contains a docker file for an image based on `node-14` with docker installed, and script to build, tag and push
+Contains a docker file for an image based on `node-20` with docker installed, and script to build, tag and push
 the image to the mrcide docker hub. 
 
-This project was forked from https://github.com/vimc/node-docker
+This project was forked from https://github.com/mrc-ide/node-docker
 
 ## building
 Run `./build-image.sh` to build and push to docker hub. This script is also run on BuildKite.

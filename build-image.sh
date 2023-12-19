@@ -14,7 +14,7 @@ else
 fi
 
 ORG=mrcide
-NAME=node-docker
+NAME=node-20-docker
 
 APP_DOCKER_COMMIT_TAG=${ORG}/${NAME}:${GIT_ID}
 APP_DOCKER_BRANCH_TAG=${ORG}/${NAME}:${GIT_BRANCH}
