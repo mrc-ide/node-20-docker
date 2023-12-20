@@ -42,6 +42,7 @@ RUN ./gradlew
 RUN cp /hintTemp/src/app/static/package.json /hint/src/app/static/
 RUN cp /hintTemp/src/app/static/package-lock.json /hint/src/app/static/
 RUN npm ci --cache .npm --prefix=app/static
+RUN npm install codecov -g
 
 # clean up hintTemp
 RUN rm -r /hintTemp
