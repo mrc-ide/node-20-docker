@@ -41,7 +41,7 @@ RUN ./gradlew
 # node modules install
 RUN cp /hintTemp/src/app/static/package.json /hint/src/app/static/
 RUN cp /hintTemp/src/app/static/package-lock.json /hint/src/app/static/
-RUN npm ci --prefix=app/static
+RUN npm ci --cache .npm --prefix=app/static
 
 # clean up hintTemp
 RUN rm -r /hintTemp
