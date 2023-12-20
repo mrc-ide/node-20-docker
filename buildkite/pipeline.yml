@@ -1,2 +1,3 @@
 steps:
-  - command: "build-image.sh"
+  - label: ":partyparrot: Building image with Node 20, Docker and OpenJDK"
+    command: "build-image.sh"
